@@ -14,7 +14,7 @@ func main() {
 	// --Connect to the mysql server
 	database.Connect()
 
-	t, _ := tail.TailFile(system.OwlAccesslog, tail.Config{Follow: true})
+	t, _ := tail.TailFile(system.Accesslog, tail.Config{Follow: true})
 
 	sort.Strings(system.ConnectType)
 
