@@ -1,0 +1,16 @@
+-- System configuration file   --
+-- Created by Edgar Javier akosej9208@gmail.com  --
+---------------------------------------------------------------------------
+#-- Path necessary files
+path.AccessLog=./access.log
+---------------------------------------------------------------------------
+#--Mysql server Ipaddress
+mysql.ip=127.0.0.1
+#--Mysql username
+mysql.user=root
+#--Mysql Password
+mysql.pass=toor
+#--Mysql server Port
+mysql.port=3306
+#--Mysql database
+mysql.db=reports
