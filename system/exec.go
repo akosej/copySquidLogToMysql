@@ -82,10 +82,3 @@ func Run(arg string) {
 	run := exec.Command(cmdArgs[0], cmdArgs[1:]...)
 	_ = run.Run()
 }
-
-func RunCMD(arg ...string) {
-	head := arg[0]
-	parts := arg[1:]
-	run := exec.Command(head, parts...)
-	_ = run.Run()
-}
